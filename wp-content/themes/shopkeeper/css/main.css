@@ -13,3 +13,71 @@
 .product_after_shop_loop .price span{
     font-size: 16px;
 }
+
+@media only screen and (max-width: 1023px) {
+    .woocommerce #content div.product .product_title, .woocommerce div.product .product_title, .woocommerce-page #content div.product .product_title, .woocommerce-page div.product .product_title {
+        font-size: 28px;
+    }
+}
+
+
+@media only screen and (max-width: 1201px) {
+    .product_socials_wrapper {
+        display:table;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        border-top-width: 1px;
+        border-top-style: solid
+    }
+
+    .product_socials_wrapper .product_socials_wrapper_inner,.product_socials_wrapper .share-product-text {
+        display: table-cell;
+        vertical-align: middle;
+        width: 50%
+    }
+
+    .product_socials_wrapper .share-product-text {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: left
+    }
+
+    .product_socials_wrapper .product_socials_wrapper_inner {
+        text-align: right
+    }
+
+    .product_socials_wrapper .product_socials_wrapper_inner a {
+        padding-right: 10px
+    }
+}
+
+.product_layout_classic .product_meta > span a {
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+.product_layout_classic .product_meta {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 75em) {
+    .product_layout_classic .product_navigation #nav-below .product-nav-previous a span, .product_layout_classic .product_navigation #nav-below .product-nav-next a span {
+        font-size: 14px;
+    }
+
+}
+
+.product_layout_classic section.related h2, .product_layout_classic section.up-sells h2 {
+    font-size: 20px !important;
+}
+
+.widget ul li a {
+    text-transform: none;
+}
