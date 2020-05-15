@@ -73,6 +73,7 @@ function shopkeeper_theme_description() {
 // Theme Version
 // -----------------------------------------------------------------------------
 function shopkeeper_theme_version() {
+    return time();
 	$getbowtied_theme = wp_get_theme(get_template());
 	return $getbowtied_theme->get('Version');
 }

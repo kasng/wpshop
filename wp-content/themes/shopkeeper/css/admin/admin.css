@@ -32,7 +32,6 @@
 
 #customize-control-ajax_add_to_cart.disabled input:checked + .switch:after {
   background: #999 !important;
-  -webkit-transform: translate3d(0, -50%, 0) !important;
   transform: translate3d(0, -50%, 0) !important; }
 
 #customize-control-ajax_add_to_cart.disabled .switch:before {
@@ -109,7 +108,6 @@
   margin: 5px 0 0 0; }
 
 .edit-post-meta-boxes-area .meta-box-sortables select {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 .edit-post-meta-boxes-area .metabox-location-side .postbox input[type="checkbox"]:checked {

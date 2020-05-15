@@ -1,0 +1,15 @@
+.list-centered.list_shop_categories li a {
+    font-size: 16px;
+}
+
+#site-footer .widget .widget-title {
+    font-size: 19px !important;
+}
+
+.products a.button {
+    font-size: 16px !important;
+}
+
+.product_after_shop_loop .price span{
+    font-size: 16px;
+}
