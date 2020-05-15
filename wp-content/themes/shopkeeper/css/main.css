@@ -81,3 +81,27 @@
 .widget ul li a {
     text-transform: none;
 }
+
+.product_layout_2 .product_content_wrapper .product_meta {
+    font-size: 14px;
+}
+
+.product_layout_2 .product_content_wrapper .product_meta > span a {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 75em) {
+    .product_layout_2 .product_navigation #nav-below .product-nav-previous a span, .product_layout_2 .product_navigation #nav-below .product-nav-next a span {
+        font-size: 12px;
+    }
+}
+
+.product_layout_2 section.related h2, .product_layout_2 section.up-sells h2 {
+    font-size: 16px !important;
+}
+
+.woocommerce ul.products li.product .onsale, .woocommerce .products span.onsale, .woocommerce-page .products span.onsale, .woocommerce span.onsale, .woocommerce-page span.onsale, .quickview-badges span.onsale, .wp-block-getbowtied-carousel ul.products li.product .onsale {
+    padding-bottom: 5px;
+    background-color: #1e73be;
+    padding-top: 5px;
+}
